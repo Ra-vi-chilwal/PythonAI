@@ -1,3 +1,8 @@
+
+import os
+os.system('pip install tensorflow==2.12.0')
+import tensorflow as tf
+
 import numpy as np
 import tensorflow as tf
 from  tensorflow.keras.datasets import imdb
@@ -46,5 +51,6 @@ if st.button('Classify'):
 
 else:
     st.write(f'please enter a movie review ')
+
 
 
