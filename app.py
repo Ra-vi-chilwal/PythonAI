@@ -1,5 +1,5 @@
-import numpy as np
-import tensorflow as tf
+# import numpy as np
+# import tensorflow as tf
 from  tensorflow.keras.datasets import imdb
 from tensorflow.keras.preprocessing import sequence 
 from tensorflow.keras.models import load_model
@@ -46,3 +46,4 @@ if st.button('Classify'):
 
 else:
     st.write(f'please enter a movie review ')
+
